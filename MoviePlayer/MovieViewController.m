@@ -151,7 +151,7 @@
             
             [player pause];
         }else{
-            
+            viewPop.hidden = YES;
             NSLog(@"开始播放");
         }
     }else if(MPplayer.playbackState==MPMoviePlaybackStateSeekingForward){
